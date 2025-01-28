@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\Coding\\Development\\Walks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32BD4B52-228E-46F3-AFCD-C766498CFDC5}|Walks.API\\Walks.API.csproj|c:\\users\\lenovo\\desktop\\coding\\development\\walks\\walks.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32BD4B52-228E-46F3-AFCD-C766498CFDC5}|Walks.API\\Walks.API.csproj|solutionrelative:walks.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32BD4B52-228E-46F3-AFCD-C766498CFDC5}|Walks.API\\Walks.API.csproj|c:\\users\\lenovo\\desktop\\coding\\development\\walks\\walks.api\\models\\dtos\\addwalkrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32BD4B52-228E-46F3-AFCD-C766498CFDC5}|Walks.API\\Walks.API.csproj|solutionrelative:walks.api\\models\\dtos\\addwalkrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32BD4B52-228E-46F3-AFCD-C766498CFDC5}|Walks.API\\Walks.API.csproj|c:\\users\\lenovo\\desktop\\coding\\development\\walks\\walks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32BD4B52-228E-46F3-AFCD-C766498CFDC5}|Walks.API\\Walks.API.csproj|solutionrelative:walks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32BD4B52-228E-46F3-AFCD-C766498CFDC5}|Walks.API\\Walks.API.csproj|c:\\users\\lenovo\\desktop\\coding\\development\\walks\\walks.api\\models\\dtos\\regiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32BD4B52-228E-46F3-AFCD-C766498CFDC5}|Walks.API\\Walks.API.csproj|solutionrelative:walks.api\\models\\dtos\\regiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WalksController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Coding\\Development\\Walks\\Walks.API\\Controllers\\WalksController.cs",
+              "RelativeDocumentMoniker": "Walks.API\\Controllers\\WalksController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Coding\\Development\\Walks\\Walks.API\\Controllers\\WalksController.cs",
+              "RelativeToolTip": "Walks.API\\Controllers\\WalksController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAGIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T12:04:45.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegionsController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Coding\\Development\\Walks\\Walks.API\\Controllers\\RegionsController.cs",
+              "RelativeDocumentMoniker": "Walks.API\\Controllers\\RegionsController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Coding\\Development\\Walks\\Walks.API\\Controllers\\RegionsController.cs",
+              "RelativeToolTip": "Walks.API\\Controllers\\RegionsController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T11:59:08.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegionDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Coding\\Development\\Walks\\Walks.API\\Models\\DTOs\\RegionDto.cs",
+              "RelativeDocumentMoniker": "Walks.API\\Models\\DTOs\\RegionDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Coding\\Development\\Walks\\Walks.API\\Models\\DTOs\\RegionDto.cs",
+              "RelativeToolTip": "Walks.API\\Models\\DTOs\\RegionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T11:58:48.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddWalkRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Coding\\Development\\Walks\\Walks.API\\Models\\DTOs\\AddWalkRequestDto.cs",
+              "RelativeDocumentMoniker": "Walks.API\\Models\\DTOs\\AddWalkRequestDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Coding\\Development\\Walks\\Walks.API\\Models\\DTOs\\AddWalkRequestDto.cs",
+              "RelativeToolTip": "Walks.API\\Models\\DTOs\\AddWalkRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T11:58:21.67Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
