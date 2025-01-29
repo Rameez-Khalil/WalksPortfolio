@@ -48,12 +48,13 @@ namespace Walks.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetWalks()
+        //walks?filterOn=Name&filterQuery=Track
+        public async Task<IActionResult> GetWalks([FromQuery] string? filterOn, [FromQuery] string? filterQuery, [FromQuery] string? sortBy, [FromQuery] bool isAscending, [FromQuery] int pageNumber, [FromQuery] int pageSize)
         {
             //find regions through the repo.
             //return the result back.
 
-            var walks = await walkRepository.GetAllWalksAsync();
+            var walks = await walkRepository.GetAllWalksAsync(filterOn, filterQuery, sortBy, isAscending, pageNumber, pageSize);
 
             //map it back to the DTO.
             

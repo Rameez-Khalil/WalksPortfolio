@@ -37,9 +37,42 @@ namespace Walks.API.Repositories
 
         }
 
-        public Task<List<Walk>> GetAllWalksAsync()
+        public async Task<List<Walk>> GetAllWalksAsync(string? filterOn, string? filterQuery, string? sortBy, bool isAscending, int pageNumber, int pageSize)
         {
-           return dbContext.Walks.Include(w=>w.Region).Include(w=>w.Difficulty).ToListAsync();
+            //filter.
+            var walks =  dbContext.Walks.Include("Region").Include("Difficulty").AsQueryable();
+
+            if (string.IsNullOrWhiteSpace(filterOn)==false && string.IsNullOrWhiteSpace(filterQuery)==false)
+            {
+                if (filterOn.Equals("Name", StringComparison.OrdinalIgnoreCase))
+                    walks = walks.Where(w => w.Name.ToLower().Contains(filterQuery.ToLower())); 
+            }
+
+            //sorting.
+            //check if the provided sorting keywords have some values.
+            if (!string.IsNullOrWhiteSpace(sortBy))
+            {
+                //check for the name and length in kms.
+                if(sortBy.Equals("Name", StringComparison.OrdinalIgnoreCase))
+                {
+                    walks = isAscending ? walks.OrderBy(w => w.Name) : walks.OrderByDescending(w=>w.Name); 
+                }
+                else if(sortBy.Equals("LengthInKms", StringComparison.OrdinalIgnoreCase))
+                {
+                    walks = isAscending ? walks.OrderBy(w => w.LengthInKms) : walks.OrderByDescending(w => w.LengthInKms); 
+                }
+            }
+
+
+            //pagination.
+            var skipResults = (pageNumber - 1) * pageSize;
+
+
+
+            return await walks.Skip(skipResults).Take(pageSize).ToListAsync();
+
+
+           //return dbContext.Walks.Include(w=>w.Region).Include(w=>w.Difficulty).ToListAsync();
         }
 
         public async Task<Walk?> GetWalkById(Guid id)
