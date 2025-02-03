@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +12,7 @@ namespace Walks.API.Controllers
 {
     [Route("api/[controller]")] //api/regions - URL
     [ApiController] //model state etc.
+    [Authorize]
     public class RegionsController : ControllerBase
     {
         private readonly WalksDbContext dbContext;
