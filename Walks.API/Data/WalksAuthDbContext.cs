@@ -33,7 +33,7 @@ namespace Walks.API.Data
                    Id = readerRoleId,
                    ConcurrencyStamp = readerRoleId,
                    Name = "Reader",
-                   NormalizedName = "Reader".ToUpper()
+                   NormalizedName = "Reader".ToUpper() //helpful for case-insensitivity.
                 },
 
                 new IdentityRole
@@ -41,7 +41,7 @@ namespace Walks.API.Data
                     Id =writerRoleId,
                     ConcurrencyStamp = writerRoleId,
                     Name = "Writer",
-                    NormalizedName = "Writer".ToUpper()
+                    NormalizedName = "Writer".ToUpper() //helpful for case-insensitivity.
 
 
                 }

@@ -25,6 +25,9 @@
  * SEED ROLES AFTER CREATING ROLES in the auth db file.
  * In the program cs add the identity core module. 
  * 
+ * CREATING AUTH CONTROLLER.
+ * 
+ * 
  * 
  * 
  */
